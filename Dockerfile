@@ -11,7 +11,7 @@ COPY . .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Expose port if your app uses one (e.g., Flask runs on 5000)
-EXPOSE 5000
+EXPOSE 3000
 
 # Run your application
 # Replace `app.py` with your Python script
